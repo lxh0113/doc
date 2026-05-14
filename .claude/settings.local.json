@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"D:\\\\desktop\\\\我的文件\\\\论文\\\\论文终稿\" -Filter *.docx)",
+      "Bash(Select-Object Name, Length)",
+      "Bash(pip list *)",
+      "Bash(pip install *)",
+      "Bash(unzip -l \"李小慧.docx\")",
+      "Bash(python3 -c \"from zipfile import ZipFile; print\\('ok'\\)\")",
+      "Bash(python3 *)",
+      "Bash(where python *)",
+      "Bash(where python3 *)",
+      "Read(//c/Program Files/**)",
+      "Bash(C:/Users/Administrator/AppData/Local/Programs/Python/Python312/python.exe *)"
+    ]
+  }
+}
